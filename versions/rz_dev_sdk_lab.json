@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "product_id": "rz_dev_sdk_lab",
+  "releases": [
+    {
+      "version": "0.1.0-dev.3",
+      "published_at": "2026-09-07T21:51:37Z",
+      "changes": [
+        "DEV Lab: configurable menu, persistent preferences, items, rewards and positions.",
+        "Signed update registry with offline verification and cumulative release notes."
+      ]
+    }
+  ]
+}

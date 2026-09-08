@@ -8,6 +8,3 @@ folder with the updated download and keep your database.
 
 `minimum_version` is the oldest version that may run. Versions below it require
 an update. A newer version above that minimum is an optional update.
-
-The `versions/` directory is temporary compatibility data for previously delivered
-SDK builds. New builds use the readable files linked above.

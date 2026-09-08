@@ -1,10 +1,11 @@
-# RZ Development — versions and changelogs
+# RZ Development — releases
 
-- [Latest versions](versions.json): latest version and minimum supported version for each script.
-- [Changelogs](changelogs/): changes grouped by script and version, newest first.
+[versions.json](versions.json) contains everything, grouped by script:
 
-Updates are downloaded through your purchase on Tebex/Cfx. Replace the script
-folder with the updated download and keep your database.
+- `version`: latest available release.
+- `minimum_version`: oldest version that may run; lower versions must update.
+- `changelog`: changes grouped by version, newest first. An empty `[]` means no notes.
 
-`minimum_version` is the oldest version that may run. Versions below it require
-an update. A newer version above that minimum is an optional update.
+The console and in-game menu show changes newer than the installed version.
+Download updates through your Tebex/Cfx purchase, replace the script folder,
+and keep your database.

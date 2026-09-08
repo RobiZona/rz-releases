@@ -1,6 +1,22 @@
 {
   "rz_dev_sdk_lab": {
     "version": "0.1.4-dev.3",
-    "minimum_version": "0.0.0"
+    "minimum_version": "0.0.0",
+    "changelog": {
+      "0.1.4-dev.3": [
+        "test",
+        "cazzo"
+      ],
+      "0.1.1-dev.3": [
+        "Build diretta delle cartelle: versione utils automatica, nessuno ZIP.",
+        "Versione del manifest unica fonte per il prodotto.",
+        "Supporto aggiornamento obbligatorio: gameplay bloccato e menu informativo disponibile.",
+        "Verifica SDK STABLE: firma Lua incorporata e registro separato."
+      ],
+      "0.1.0-dev.3": [
+        "DEV Lab: configurable menu, persistent preferences, items, rewards and positions.",
+        "Signed update registry with offline verification and cumulative release notes."
+      ]
+    }
   }
 }

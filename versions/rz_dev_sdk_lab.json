@@ -3,20 +3,10 @@
   "product_id": "rz_dev_sdk_lab",
   "releases": [
     {
-      "changes": [
-        "DEV Lab: configurable menu, persistent preferences, items, rewards and positions.",
-        "Signed update registry with offline verification and cumulative release notes."
-      ],
-      "published_at": "2026-09-07T21:51:37Z",
-      "version": "0.1.0-dev.3"
-    },
-    {
       "version": "0.1.1-dev.3",
-      "published_at": "2026-09-07T22:38:56Z",
+      "published_at": "2026-09-08T00:09:57Z",
       "changes": [
-        "Build diretta delle cartelle: versione utils automatica, nessuno ZIP.",
-        "Versione del manifest unica fonte per il prodotto.",
-        "Supporto aggiornamento obbligatorio: gameplay bloccato e menu informativo disponibile."
+        "Verifica SDK STABLE: firma Lua incorporata e registro separato."
       ]
     }
   ]

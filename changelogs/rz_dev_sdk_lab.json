@@ -1,4 +1,8 @@
 {
+  "0.1.4-dev.3": [
+    "test",
+    "cazzo"
+  ],
   "0.1.1-dev.3": [
     "Build diretta delle cartelle: versione utils automatica, nessuno ZIP.",
     "Versione del manifest unica fonte per il prodotto.",

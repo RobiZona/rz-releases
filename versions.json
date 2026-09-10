@@ -1,8 +1,47 @@
 {
   "rz_dev_sdk_lab": {
-    "version": "0.1.6-dev.3",
+    "version": "0.8.25-dev.3",
     "minimum_version": "0.0.0",
     "changelog": {
+      "0.8.25-dev.3": [
+        "Optional product HTML hosted separately from the owner panel with client UI APIs.",
+        "Shared UI style and product template with dynamic data, loading timeout and focus handover."
+      ],
+      "0.7.24-dev.3": [
+        "Locale dictionaries organized into menu, console and notifications groups; nested translation keys supported."
+      ],
+      "0.6.23-dev.3": [
+        "Product registration is automatic from the bundled identity and manifest.",
+        "Lab translations use a separate locale file; technical probes are isolated from the starter template."
+      ],
+      "0.5.22-dev.3": [
+        "Merged startup validation and RZ initialization into shared/utils.lua; only author API files remain at the runtime root."
+      ],
+      "0.5.21-dev.3": [
+        "Focused author API files on product scripting; moved platform and panel bindings into internal modules."
+      ],
+      "0.5.20-dev.3": [
+        "Separated shared, client and server API entry points into their matching manifest sections."
+      ],
+      "0.5.19-dev.3": [],
+      "0.5.18-dev.3": [
+        "Reorganized SDK into documented client/server API entry points and separate internal modules; existing API contracts preserved."
+      ],
+      "0.5.17-dev.3": [
+        "Client configuration uses staggered revision checks and queued replies instead of full broadcasts.",
+        "Only changed client-safe fields are transferred; latent delivery, retry and stale-response protection."
+      ],
+      "0.5.16-dev.3": [
+        "Notifications rendered by SDK-owned RedM natives without VORP exports or events.",
+        "Server Left notification routed to the resource client; texture timeout and persistent handle cleanup."
+      ],
+      "0.5.15-dev.3": [],
+      "0.5.14-dev.3": [
+        "Client API entry renamed to api_client.lua; automatic manifest migration.",
+        "17 client notification methods with per-method custom bridges and documented payloads."
+      ],
+      "0.5.13-dev.3": [],
+      "0.5.12-dev.3": [],
       "0.1.1-dev.3": [
         "Build diretta delle cartelle: versione utils automatica, nessuno ZIP.",
         "Versione del manifest unica fonte per il prodotto.",

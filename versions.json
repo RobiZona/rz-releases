@@ -1,8 +1,17 @@
 {
   "rz_dev_sdk_lab": {
-    "version": "0.8.25-dev.3",
+    "version": "0.11.34-dev.3",
     "minimum_version": "0.0.0",
     "changelog": {
+      "0.11.34-dev.3": [],
+      "0.11.33-dev.3": [],
+      "0.11.32-dev.3": [],
+      "0.11.31-dev.3": [],
+      "0.11.30-dev.3": [],
+      "0.10.29-dev.3": [],
+      "0.10.28-dev.3": [],
+      "0.10.27-dev.3": [],
+      "0.9.26-dev.3": [],
       "0.8.25-dev.3": [
         "Optional product HTML hosted separately from the owner panel with client UI APIs.",
         "Shared UI style and product template with dynamic data, loading timeout and focus handover."
@@ -52,6 +61,22 @@
         "DEV Lab: configurable menu, persistent preferences, items, rewards and positions.",
         "Signed update registry with offline verification and cumulative release notes."
       ]
+    }
+  },
+  "rz_herbs": {
+    "version": "2.4.9",
+    "minimum_version": "0.0.0",
+    "changelog": {
+      "2.4.9": [],
+      "2.4.8": [],
+      "2.4.7": [],
+      "2.4.6": [],
+      "2.4.5": [],
+      "2.3.4": [],
+      "2.3.3": [],
+      "2.3.2": [],
+      "2.2.1": [],
+      "2.1.0": []
     }
   }
 }

@@ -1,8 +1,9 @@
 {
   "rz_dev_sdk_lab": {
-    "version": "0.15.96-dev.3",
+    "version": "0.15.98-dev.3",
     "minimum_version": "0.0.0",
     "changelog": {
+      "0.15.98-dev.3": [],
       "0.15.96-dev.3": [],
       "0.15.95-dev.3": [],
       "0.15.94-dev.3": [],
@@ -126,9 +127,18 @@
     }
   },
   "rz_herbs": {
-    "version": "2.53.71",
+    "version": "2.57.73",
     "minimum_version": "0.0.0",
     "changelog": {
+      "2.57.73": [
+        "Notification formatting stays private; public files contain plain wording and optional punctuation."
+      ],
+      "2.56.73": [
+        "Collection and eating notification texts can now be customized in public/notifications.lua."
+      ],
+      "2.55.73": [
+        "Herbs V2 is configured in game; no automatic V1 migration is included."
+      ],
       "2.53.71": [],
       "2.53.70": [],
       "2.52.69": [],

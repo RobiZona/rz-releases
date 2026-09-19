@@ -1,8 +1,11 @@
 {
   "rz_dev_sdk_lab": {
-    "version": "0.15.99-dev.3",
+    "version": "0.15.100-dev.3",
     "minimum_version": "0.0.0",
     "changelog": {
+      "0.15.100-dev.3": [
+        "Show successful database migration details only when SDK debug is enabled."
+      ],
       "0.15.99-dev.3": [
         "Create and reuse the database installation automatically when the optional server scope is unset."
       ],
@@ -130,9 +133,12 @@
     }
   },
   "rz_herbs": {
-    "version": "2.58.74",
+    "version": "2.58.75",
     "minimum_version": "0.0.0",
     "changelog": {
+      "2.58.75": [
+        "Show successful database migration details only when SDK debug is enabled."
+      ],
       "2.58.74": [
         "Create and reuse the database installation automatically when the optional server scope is unset."
       ],

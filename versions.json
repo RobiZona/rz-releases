@@ -1,8 +1,11 @@
 {
   "rz_dev_sdk_lab": {
-    "version": "0.15.100-dev.3",
+    "version": "0.15.101-dev.3",
     "minimum_version": "0.0.0",
     "changelog": {
+      "0.15.101-dev.3": [
+        "Close all RZ menus and invalidate previous sessions after a successful owner claim or transfer."
+      ],
       "0.15.100-dev.3": [
         "Show successful database migration details only when SDK debug is enabled."
       ],
@@ -133,9 +136,12 @@
     }
   },
   "rz_herbs": {
-    "version": "2.58.75",
+    "version": "2.58.76",
     "minimum_version": "0.0.0",
     "changelog": {
+      "2.58.76": [
+        "Close all RZ menus and invalidate previous sessions after a successful owner claim or transfer."
+      ],
       "2.58.75": [
         "Show successful database migration details only when SDK debug is enabled."
       ],

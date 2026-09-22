@@ -1,8 +1,14 @@
 {
   "rz_dev_sdk_lab": {
-    "version": "0.15.101-dev.3",
+    "version": "0.15.103-dev.3",
     "minimum_version": "0.0.0",
     "changelog": {
+      "0.15.103-dev.3": [
+        "Warn when rz_update_product is still rz_product; skip update checks for the placeholder without blocking gameplay."
+      ],
+      "0.15.102-dev.3": [
+        "Use the explicit rz_update_product edition channel for version checks and releases, independently of the resource name."
+      ],
       "0.15.101-dev.3": [
         "Close all RZ menus and invalidate previous sessions after a successful owner claim or transfer."
       ],
@@ -135,10 +141,222 @@
       ]
     }
   },
-  "rz_herbs": {
-    "version": "2.58.76",
+  "rz_eggs_free": {
+    "version": "1.0.9",
     "minimum_version": "0.0.0",
     "changelog": {
+      "1.0.9": [
+        "This free release migrates update checks to RobiZona/rz-releases (product: rz_eggs_free). Future updates stay on the free product channel.",
+        "Validate collection on the server and prevent duplicate rewards.",
+        "Match egg collection to the loot event composite instead of unrelated nearby loot interactions.",
+        "Fix object and blip cleanup during synchronization, loading and player movement.",
+        "Back up and update the complete resource; merge public/ customizations instead of updating only public/."
+      ],
+      "1.0.8": [
+        "Fix minor bug"
+      ],
+      "1.0.7": [
+        "Changed check version and updated code for adaptation"
+      ],
+      "1.0.6": [
+        "Fixed a server-side error that occurred when the script was encrypted by tebex"
+      ],
+      "1.0.5": [
+        "Fix minor bug"
+      ],
+      "1.0.4": [
+        "Public files on github"
+      ],
+      "1.0.3": [
+        "Major optimization of plant synchronization system",
+        "Replaced full dataset callbacks with incremental version-diff updates",
+        "Implemented TriggerLatentClientEvent to prevent large event warnings",
+        "Reduced network load and improved multi-player sync reliability"
+      ],
+      "1.0.2": [
+        "Fix Dataview error"
+      ],
+      "1.0.1": [
+        "Move all framework functions to public/framework to allow you to upgrade"
+      ],
+      "1.0.0": [
+        "First release!!!"
+      ]
+    }
+  },
+  "rz_herbs": {
+    "version": "2.58.78",
+    "minimum_version": "0.0.0",
+    "changelog": {
+      "2.58.78": [
+        "Warn when rz_update_product is still rz_product; skip update checks for the placeholder without blocking gameplay."
+      ],
+      "2.58.77": [
+        "Use the explicit rz_update_product edition channel for version checks and releases, independently of the resource name."
+      ],
+      "2.58.76": [
+        "Close all RZ menus and invalidate previous sessions after a successful owner claim or transfer."
+      ],
+      "2.58.75": [
+        "Show successful database migration details only when SDK debug is enabled."
+      ],
+      "2.58.74": [
+        "Create and reuse the database installation automatically when the optional server scope is unset."
+      ],
+      "2.57.73": [
+        "Notification formatting stays private; public files contain plain wording and optional punctuation."
+      ],
+      "2.56.73": [
+        "Collection and eating notification texts can now be customized in public/notifications.lua."
+      ],
+      "2.55.73": [
+        "Herbs V2 is configured in game; no automatic V1 migration is included."
+      ],
+      "2.53.71": [],
+      "2.53.70": [],
+      "2.52.69": [],
+      "2.52.68": [],
+      "2.52.67": [],
+      "2.52.66": [],
+      "2.52.65": [],
+      "2.52.64": [],
+      "2.52.63": [],
+      "2.52.62": [],
+      "2.52.61": [],
+      "2.52.60": [],
+      "2.51.59": [],
+      "2.50.58": [],
+      "2.49.57": [],
+      "2.48.57": [],
+      "2.47.57": [],
+      "2.47.56": [],
+      "2.47.55": [],
+      "2.46.55": [],
+      "2.46.54": [],
+      "2.45.54": [],
+      "2.44.54": [],
+      "2.43.54": [],
+      "2.43.53": [],
+      "2.43.52": [],
+      "2.43.51": [],
+      "2.43.50": [],
+      "2.42.50": [],
+      "2.41.50": [],
+      "2.40.49": [],
+      "2.40.48": [],
+      "2.40.47": [],
+      "2.39.46": [],
+      "2.38.46": [],
+      "2.37.46": [],
+      "2.36.45": [],
+      "2.35.45": [],
+      "2.34.44": [],
+      "2.33.43": [],
+      "2.32.42": [],
+      "2.31.42": [],
+      "2.30.42": [],
+      "2.29.42": [],
+      "2.29.41": [],
+      "2.28.40": [],
+      "2.27.39": [],
+      "2.27.38": [],
+      "2.26.37": [],
+      "2.25.36": [],
+      "2.24.35": [],
+      "2.23.34": [],
+      "2.22.33": [],
+      "2.21.33": [],
+      "2.20.33": [],
+      "2.19.33": [],
+      "2.19.32": [],
+      "2.19.31": [],
+      "2.18.30": [],
+      "2.17.29": [],
+      "2.16.28": [],
+      "2.15.27": [],
+      "2.14.26": [],
+      "2.13.26": [],
+      "2.12.25": [],
+      "2.11.24": [],
+      "2.11.23": [],
+      "2.11.22": [],
+      "2.11.21": [],
+      "2.11.20": [],
+      "2.11.19": [],
+      "2.11.18": [],
+      "2.11.17": [],
+      "2.11.16": [],
+      "2.11.15": [],
+      "2.11.14": [],
+      "2.10.13": [],
+      "2.10.12": [],
+      "2.9.11": [],
+      "2.8.11": [],
+      "2.7.11": [],
+      "2.6.11": [],
+      "2.5.10": [],
+      "2.4.9": [],
+      "2.4.8": [],
+      "2.4.7": [],
+      "2.4.6": [],
+      "2.4.5": [],
+      "2.3.4": [],
+      "2.3.3": [],
+      "2.3.2": [],
+      "2.2.1": [],
+      "2.1.0": []
+    }
+  },
+  "rz_herbs_free": {
+    "version": "1.0.8",
+    "minimum_version": "0.0.0",
+    "changelog": {
+      "1.0.8": [
+        "This free release migrates update checks to RobiZona/rz-releases (product: rz_herbs_free). Future updates stay on the free product channel.",
+        "Validate collection on the server and prevent duplicate rewards.",
+        "Validate edible plant effects and restore availability when no inventory reward can be added.",
+        "Fix object and blip cleanup during synchronization, loading and player movement.",
+        "Back up and update the complete resource; merge public/ customizations instead of updating only public/."
+      ],
+      "1.0.7": [
+        "Changed check version and updated code for adaptation"
+      ],
+      "1.0.6": [
+        "Fixed a server-side error that occurred when the script was encrypted by tebex"
+      ],
+      "1.0.5": [
+        "Fix minor bug"
+      ],
+      "1.0.4": [
+        "Public files on github"
+      ],
+      "1.0.3": [
+        "Major optimization of plant synchronization system",
+        "Replaced full dataset callbacks with incremental version-diff updates",
+        "Implemented TriggerLatentClientEvent to prevent large event warnings",
+        "Reduced network load and improved multi-player sync reliability"
+      ],
+      "1.0.2": [
+        "Fix Dataview error"
+      ],
+      "1.0.1": [
+        "Move all framework functions to public/framework to allow you to upgrade"
+      ],
+      "1.0.0": [
+        "First release!!!"
+      ]
+    }
+  },
+  "rz_herbs_v2": {
+    "version": "2.58.78",
+    "minimum_version": "0.0.0",
+    "changelog": {
+      "2.58.78": [
+        "Warn when rz_update_product is still rz_product; skip update checks for the placeholder without blocking gameplay."
+      ],
+      "2.58.77": [
+        "Use the explicit rz_update_product edition channel for version checks and releases, independently of the resource name."
+      ],
       "2.58.76": [
         "Close all RZ menus and invalidate previous sessions after a successful owner claim or transfer."
       ],

@@ -308,9 +308,13 @@
     }
   },
   "rz_herbs_free": {
-    "version": "1.0.8",
+    "version": "1.0.9",
     "minimum_version": "0.0.0",
     "changelog": {
+      "1.0.9": [
+        "Fix delayed collection events being misclassified as eating a nearby plant.",
+        "Use the explicit plant interaction action and ignore duplicate or outdated completion events."
+      ],
       "1.0.8": [
         "This free release migrates update checks to RobiZona/rz-releases (product: rz_herbs_free). Future updates stay on the free product channel.",
         "Validate collection on the server and prevent duplicate rewards.",
@@ -348,9 +352,15 @@
     }
   },
   "rz_herbs_v2": {
-    "version": "2.58.78",
+    "version": "2.59.78",
     "minimum_version": "0.0.0",
     "changelog": {
+      "2.59.78": [
+        "Fix delayed collection events being misclassified as eating a nearby plant.",
+        "Bind completion to the original plant and ignore duplicate or outdated interaction events.",
+        "Invalidate old spawn coordinates after edits and reject outdated snapshots and polling responses.",
+        "Notify ready players individually in batches of up to four every 100 ms; keep full plant snapshots latent and coalesce repeated layout edits."
+      ],
       "2.58.78": [
         "Warn when rz_update_product is still rz_product; skip update checks for the placeholder without blocking gameplay."
       ],
